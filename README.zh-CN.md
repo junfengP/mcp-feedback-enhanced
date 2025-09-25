@@ -86,6 +86,7 @@
 - **端口转发支持**：完整的端口转发设置指引和故障排除
 - **MCP 整合优化**：改善与 MCP 系统的整合，提供更稳定的连接体验
 - **详细文档**：[SSH Remote 环境使用指南](docs/zh-CN/ssh-remote/browser-launch-issues.md)
+- 🎯 **自动聚焦输入框**：窗口打开时自动聚焦反馈输入框，提升用户体验（感谢 @penn201500）
 
 ## 🌐 界面预览
 
@@ -109,7 +110,7 @@
 **快捷键支持**
 - `Ctrl+Enter`（Windows/Linux）/ `Cmd+Enter`（macOS）：提交反馈（主键盘与数字键盘皆支持）
 - `Ctrl+V`（Windows/Linux）/ `Cmd+V`（macOS）：直接粘贴剪贴板图片
-- `Ctrl+I`（Windows/Linux）/ `Cmd+I`（macOS）：快速聚焦输入框 (感谢 @penn201500)
+- `Ctrl+I`（Windows/Linux）/ `Cmd+I`（macOS）：快速聚焦输入框（感谢 @penn201500）
 
 ## 🚀 快速开始
 
@@ -183,6 +184,7 @@ uvx mcp-feedback-enhanced@latest version       # 检查版本
 
 # 界面测试
 uvx mcp-feedback-enhanced@latest test --web    # 测试 Web UI (自动持续运行)
+uvx mcp-feedback-enhanced@latest test --enhanced # 增强测试套件
 
 # 调试模式
 MCP_DEBUG=true uvx mcp-feedback-enhanced@latest test
