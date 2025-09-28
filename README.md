@@ -8,85 +8,85 @@
 
 ## 🎯 Core Concept
 
-This is an [MCP server](https://modelcontextprotocol.io/) that establishes **feedback-oriented development workflows**, adopting a **pure Web UI architecture**, perfectly adapting to local, **SSH Remote environments** (Cursor SSH Remote, VS Code Remote SSH), and **WSL (Windows Subsystem for Linux) environments**. By guiding AI to confirm with users rather than making speculative operations, it can consolidate multiple tool calls into a single feedback-oriented request, dramatically reducing platform costs and improving development efficiency.
+This [MCP server](https://modelcontextprotocol.io/) establishes **feedback-driven development workflows** through a **pure Web UI architecture**, seamlessly supporting local development, **SSH Remote environments** (Cursor SSH Remote, VS Code Remote SSH), and **WSL (Windows Subsystem for Linux) environments**. By guiding AI to confirm with users instead of making speculative operations, it consolidates multiple tool calls into a single feedback-driven request, dramatically reducing platform costs while improving development efficiency.
 
-**🌐 Web-Only Architecture Advantages:**
-- 🚀 **Simplified Deployment**: No GUI dependencies, lighter installation
-- 🌍 **Cross-Platform Compatibility**: Supports all operating systems and environments
-- 🔧 **Easy Maintenance**: Unified Web interface, reduced complexity
-- 📦 **Compact Size**: Removed heavy GUI libraries, significantly smaller installation package
+**🌐 Web-Only Architecture Benefits:**
+- 🚀 **Streamlined Deployment**: Eliminates GUI dependencies for lighter installation
+- 🌍 **Universal Compatibility**: Works across all operating systems and environments
+- 🔧 **Simplified Maintenance**: Unified Web interface reduces complexity
+- 📦 **Minimal Footprint**: Heavy GUI libraries removed for significantly smaller package size
 
 **Supported Platforms:** [Cursor](https://www.cursor.com) | [Cline](https://cline.bot) | [Windsurf](https://windsurf.com) | [Augment](https://www.augmentcode.com) | [Trae](https://www.trae.ai)
 
 ### 🔄 Workflow
-1. **AI Call** → `mcp-feedback-enhanced` tool
-2. **Web UI Launch** → Auto-open browser interface (pure Web architecture)
-3. **Smart Interaction** → Prompt selection, text input, image upload, auto-submit
-4. **Real-time Feedback** → WebSocket connection delivers information to AI instantly
-5. **Session Tracking** → Auto-record session history and statistics
-6. **Process Continuation** → AI adjusts behavior or ends task based on feedback
+1. **AI Invocation** → Calls `mcp-feedback-enhanced` tool
+2. **Web UI Launch** → Automatically opens browser interface (pure Web architecture)
+3. **Intelligent Interaction** → Enables prompt selection, text input, image upload, and auto-submit
+4. **Real-time Feedback** → WebSocket connection instantly delivers information to AI
+5. **Session Tracking** → Automatically records session history and statistics
+6. **Process Continuation** → AI adjusts behavior or concludes task based on user feedback
 
 ## 🌟 Key Features
 
 ### 🌐 Pure Web UI Architecture System
-- **Web-Only Design**: Completely removed desktop GUI dependencies, adopting pure Web interface
-- **Universal Compatibility**: Supports local, SSH Remote, and WSL environments
-- **Auto Adaptation**: Intelligent environment detection and optimal configuration
-- **Lightweight Deployment**: No complex GUI environment configuration required
+- **Web-Only Design**: Complete elimination of desktop GUI dependencies with pure Web interface
+- **Universal Compatibility**: Full support for local, SSH Remote, and WSL environments
+- **Intelligent Adaptation**: Automatic environment detection with optimal configuration
+- **Effortless Deployment**: No complex GUI environment setup required
 
-### 📝 Smart Prompt Management System (v2.4.0 New Feature)
-- **CRUD Operations**: Create, edit, delete, and use common prompts
-- **Usage Statistics**: Track usage frequency with intelligent sorting
-- **Quick Application**: One-click selection and application of prompts
-- **Auto-Submit Integration**: Support auto-submit marking and priority display
+### 📝 Intelligent Prompt Management System (v2.4.0 New Feature)
+- **Full CRUD Operations**: Create, edit, delete, and utilize frequently used prompts
+- **Usage Analytics**: Track usage frequency with intelligent sorting algorithms
+- **Instant Application**: One-click prompt selection and application
+- **Auto-Submit Integration**: Seamless auto-submit marking with priority display
 
 ### ⏰ Auto-Timed Submit Feature (v2.4.0 New Feature)
-- **Flexible Timing**: Configurable countdown timer from 1-86400 seconds
-- **Visual Display**: Real-time countdown display and status indicators
-- **Deep Integration**: Seamless integration with prompt management system
-- **Complete Control**: Support pause, resume, and cancel operations
+- **Flexible Timing**: Configurable countdown timer ranging from 1 to 86,400 seconds
+- **Visual Feedback**: Real-time countdown display with comprehensive status indicators
+- **Deep Integration**: Seamless coordination with the prompt management system
+- **Full Control**: Complete pause, resume, and cancel operation support
 
 ### 📊 Session Management & Tracking (v2.4.0 New Feature)
-- **Real-time Status**: Current session status display in real-time
-- **History Records**: Complete session history and statistical analysis
-- **Data Statistics**: Today's session count and average duration statistics
-- **Detail Management**: Session detail viewing and management functions
+- **Live Status Monitoring**: Real-time display of current session status
+- **Comprehensive History**: Complete session records with detailed statistical analysis
+- **Data Insights**: Daily session counts and average duration analytics
+- **Advanced Management**: Detailed session viewing and comprehensive management tools
 
 ### 🔗 Connection Monitoring System (v2.4.0 New Feature)
-- **Real-time Monitoring**: WebSocket connection status monitoring in real-time
-- **Quality Indicators**: Latency measurement and connection quality indicators
-- **Auto Reconnection**: Smart reconnection mechanism and error handling
-- **Detailed Statistics**: Complete connection statistical information
+- **Live Connection Monitoring**: Real-time WebSocket connection status tracking
+- **Quality Metrics**: Comprehensive latency measurement and connection quality indicators
+- **Intelligent Reconnection**: Smart reconnection mechanisms with robust error handling
+- **Comprehensive Analytics**: Complete connection statistics and performance metrics
 
 ### 🎨 Modern Interface Design
-- **Modular Architecture**: JavaScript completely modularized refactoring
-- **Responsive Design**: Adapts to different screen sizes and window dimensions
-- **Unified Style**: Consistent design language and visual experience
-- **Session Panel**: New left session management panel with collapse/expand support
+- **Modular Architecture**: Complete JavaScript modularization with clean code structure
+- **Responsive Design**: Seamless adaptation to various screen sizes and window dimensions
+- **Unified Aesthetics**: Consistent design language ensuring cohesive visual experience
+- **Enhanced Session Panel**: Feature-rich left sidebar with collapsible session management
 
-### 🖼️ Image Support
-- **Format Support**: PNG, JPG, JPEG, GIF, BMP, WebP
-- **Upload Methods**: Drag & drop files + clipboard paste (Ctrl+V)
-- **Unlimited Upload**: Support image files of any size with automatic smart processing
+### 🖼️ Comprehensive Image Support
+- **Broad Format Compatibility**: Full support for PNG, JPG, JPEG, GIF, BMP, and WebP formats
+- **Flexible Upload Options**: Intuitive drag & drop functionality plus clipboard paste (Ctrl+V)
+- **Unrestricted File Handling**: Support for images of any size with intelligent automatic processing
 
-### 🌏 Multi-language
-- **Three Languages**: English, Traditional Chinese, Simplified Chinese
-- **Smart Detection**: Auto-select based on system language
-- **Live Switching**: Change language directly within interface
+### 🌏 Multi-language Support
+- **Triple Language Support**: Complete English, Traditional Chinese, and Simplified Chinese localization
+- **Intelligent Detection**: Automatic language selection based on system preferences
+- **Dynamic Switching**: Real-time language changes directly within the interface
 
 ### ✨ WSL Environment Support (v2.2.5)
-- **Auto Detection**: Intelligently identifies WSL (Windows Subsystem for Linux) environments
-- **Browser Integration**: Automatically launches Windows browser in WSL environments
-- **Multiple Launch Methods**: Supports `cmd.exe`, `powershell.exe`, `wslview` and other browser launch methods
-- **Seamless Experience**: WSL users can directly use Web UI without additional configuration
+- **Intelligent Detection**: Automatic identification of WSL (Windows Subsystem for Linux) environments
+- **Seamless Browser Integration**: Automatic Windows browser launching within WSL environments
+- **Multiple Launch Strategies**: Support for `cmd.exe`, `powershell.exe`, `wslview`, and additional browser launch methods
+- **Zero-Configuration Experience**: Direct Web UI access for WSL users without additional setup
 
 ### 🌐 SSH Remote Environment Support (v2.3.0 New Feature)
-- **Smart Detection**: Automatically identifies SSH Remote environments (Cursor SSH Remote, VS Code Remote SSH, etc.)
-- **Browser Launch Guidance**: Provides clear solutions when browser cannot launch automatically
-- **Port Forwarding Support**: Complete port forwarding setup guidance and troubleshooting
-- **MCP Integration Optimization**: Improved integration with MCP system for more stable connection experience
-- **Detailed Documentation**: [SSH Remote Environment Usage Guide](docs/en/ssh-remote/browser-launch-issues.md)
-- 🎯 **Auto-focus Input Box**: Automatically focus on feedback input box when window opens, improving user experience (Thanks @penn201500)
+- **Intelligent Detection**: Automatic identification of SSH Remote environments (Cursor SSH Remote, VS Code Remote SSH, etc.)
+- **Browser Launch Assistance**: Clear guidance and solutions when automatic browser launching fails
+- **Complete Port Forwarding Support**: Comprehensive setup guidance and troubleshooting documentation
+- **Enhanced MCP Integration**: Optimized integration with MCP systems for improved connection stability
+- **Comprehensive Documentation**: [SSH Remote Environment Usage Guide](docs/en/ssh-remote/browser-launch-issues.md)
+- 🎯 **Smart Input Focus**: Automatic focus on feedback input box upon window opening for enhanced UX (Thanks @penn201500)
 
 ## 🌐 Interface Preview
 
@@ -105,12 +105,12 @@ This is an [MCP server](https://modelcontextprotocol.io/) that establishes **fee
 
 </details>
 
-*Web UI Interface - Pure Web architecture, supporting prompt management, auto-submit, session tracking and other smart features*
+*Web UI Interface - Pure Web architecture supporting intelligent features including prompt management, auto-submit, session tracking, and more*
 
 **Keyboard Shortcuts**
-- `Ctrl+Enter` (Windows/Linux) / `Cmd+Enter` (macOS): Submit feedback (supports both main keyboard and numpad)
-- `Ctrl+V` (Windows/Linux) / `Cmd+V` (macOS): Directly paste clipboard images
-- `Ctrl+I` (Windows/Linux) / `Cmd+I` (macOS): Quick focus input box (Thanks @penn201500)
+- `Ctrl+Enter` (Windows/Linux) / `Cmd+Enter` (macOS): Submit feedback (supports both main and numeric keypad)
+- `Ctrl+V` (Windows/Linux) / `Cmd+V` (macOS): Paste clipboard images directly
+- `Ctrl+I` (Windows/Linux) / `Cmd+I` (macOS): Quick input box focus (Thanks @penn201500)
 
 ## 🚀 Quick Start
 
@@ -119,12 +119,12 @@ This is an [MCP server](https://modelcontextprotocol.io/) that establishes **fee
 # Install uv (if not already installed)
 pip install uv
 
-# Quick test
+# Quick functionality test
 uvx mcp-feedback-enhanced@latest test
 ```
 
 ### 2. MCP Configuration
-**Basic Configuration** (suitable for most users):
+**Standard Configuration** (recommended for most users):
 ```json
 {
   "mcpServers": {
@@ -138,7 +138,7 @@ uvx mcp-feedback-enhanced@latest test
 }
 ```
 
-**Advanced Configuration** (custom environment needed):
+**Advanced Configuration** (for custom environment requirements):
 ```json
 {
   "mcpServers": {
@@ -157,34 +157,34 @@ uvx mcp-feedback-enhanced@latest test
 ```
 
 ### 3. Prompt Engineering Setup
-For best results, add these rules to your AI assistant:
+For optimal results, configure your AI assistant with these guidelines:
 
 ```
 # MCP Interactive Feedback Rules
 
-1. During any process, task, or conversation, whether asking, responding, or completing stage tasks, must call MCP mcp-feedback-enhanced.
-2. When receiving user feedback, if feedback content is not empty, must call MCP mcp-feedback-enhanced again and adjust behavior based on feedback.
-3. Only when user explicitly indicates "end" or "no more interaction needed" can you stop calling MCP mcp-feedback-enhanced, then the process is complete.
-4. Unless receiving end command, all steps must repeatedly call MCP mcp-feedback-enhanced.
-5. Before completing the task, use the MCP mcp-feedback-enhanced to ask the user for feedback.
+1. During any process, task, or conversation phase—whether inquiring, responding, or completing tasks—always invoke MCP mcp-feedback-enhanced.
+2. Upon receiving user feedback, if content is non-empty, invoke MCP mcp-feedback-enhanced again and adjust behavior accordingly.
+3. Only cease calling MCP mcp-feedback-enhanced when users explicitly indicate "end" or "no further interaction needed"—this marks process completion.
+4. Unless explicitly instructed to end, all workflow steps must repeatedly invoke MCP mcp-feedback-enhanced.
+5. Before task completion, use MCP mcp-feedback-enhanced to solicit user feedback.
 ```
 
 ## ⚙️ Advanced Settings
 
 ### Environment Variables
-| Variable | Purpose | Values | Default |
-|----------|---------|--------|---------|
+| Variable | Purpose | Accepted Values | Default |
+|----------|---------|----------------|----------|
 | `MCP_DEBUG` | Debug mode | `true`/`false` | `false` |
 | `MCP_WEB_PORT` | Web UI port | `1024-65535` | `8765` |
 
 ### Testing Options
 ```bash
-# Version check
-uvx mcp-feedback-enhanced@latest version       # Check version
+# Version information
+uvx mcp-feedback-enhanced@latest version       # Check current version
 
 # Interface testing
-uvx mcp-feedback-enhanced@latest test --web    # Test Web UI (auto continuous running)
-uvx mcp-feedback-enhanced@latest test --enhanced # Enhanced test suite
+uvx mcp-feedback-enhanced@latest test --web    # Test Web UI (continuous auto-running mode)
+uvx mcp-feedback-enhanced@latest test --enhanced # Comprehensive enhanced test suite
 
 # Debug mode
 MCP_DEBUG=true uvx mcp-feedback-enhanced@latest test
@@ -201,58 +201,58 @@ uv sync
 ```bash
 # Functional Testing
 uv run python -m mcp_feedback_enhanced test              # Standard functional testing
-uvx --with-editable . mcp-feedback-enhanced test --web   # Web UI testing (continuous running)
+uvx --with-editable . mcp-feedback-enhanced test --web   # Web UI testing (continuous running mode)
 
 # Unit Testing
-make test                                                # Run all unit tests
-make test-fast                                          # Fast testing (skip slow tests)
-make test-cov                                           # Testing with coverage report
+make test                                                # Execute all unit tests
+make test-fast                                          # Fast testing (excludes slow tests)
+make test-cov                                           # Testing with coverage report generation
 
-# Code Quality Checks
-make check                                              # Complete code quality checks
-make quick-check                                        # Quick check with auto-fix
+# Code Quality Assurance
+make check                                              # Comprehensive code quality validation
+make quick-check                                        # Quick validation with automatic fixes
 ```
 
 **Testing Descriptions**
-- **Functional Testing**: Test complete MCP tool functionality workflow
-- **Unit Testing**: Test individual module functionality
-- **Coverage Testing**: Generate HTML coverage report to `htmlcov/` directory
-- **Quality Checks**: Include linting, formatting, type checking
+- **Functional Testing**: Validates complete MCP tool functionality workflows
+- **Unit Testing**: Tests individual module functionality in isolation
+- **Coverage Testing**: Generates comprehensive HTML coverage reports in `htmlcov/` directory
+- **Quality Assurance**: Includes comprehensive linting, formatting, and type checking
 
 ## 🆕 Version History
 
 📋 **Complete Version History:** [RELEASE_NOTES/CHANGELOG.en.md](RELEASE_NOTES/CHANGELOG.en.md)
 
 ### Latest Version Highlights (v2.4.0)
-- 🏗️ **Web-Only Architecture Refactoring**: Completely removed PyQt6 GUI dependencies, transitioned to pure Web UI architecture, dramatically simplifying deployment
-- 📝 **Smart Prompt Management**: Added complete prompt CRUD system with usage statistics and intelligent sorting
-- ⏰ **Auto-Timed Submit**: Configurable countdown timer with deep integration with prompt management system
-- 📊 **Session Management System**: Real-time session status, history records, and statistical analysis features
-- 🔗 **Enhanced Connection Monitoring**: WebSocket connection status monitoring, latency measurement, and auto-reconnection
-- 🎨 **Comprehensive UI/UX Optimization**: New session panel, responsive design, unified visual style
-- 🌐 **Enhanced Multi-language System**: Optimized language switching mechanism, improved localization coverage
-- 🛠️ **Technical Architecture Upgrade**: JavaScript modular refactoring, adopting modern development patterns
+- 🏗️ **Web-Only Architecture Refactoring**: Complete elimination of PyQt6 GUI dependencies with transition to pure Web UI architecture, dramatically simplifying deployment
+- 📝 **Intelligent Prompt Management**: Comprehensive prompt CRUD system featuring usage analytics and intelligent sorting algorithms
+- ⏰ **Auto-Timed Submit**: Configurable countdown timer with seamless prompt management system integration
+- 📊 **Advanced Session Management**: Real-time session monitoring, comprehensive history tracking, and detailed statistical analysis
+- 🔗 **Enhanced Connection Monitoring**: Sophisticated WebSocket connection monitoring with latency measurement and intelligent auto-reconnection
+- 🎨 **Comprehensive UI/UX Enhancement**: Modern session panel, responsive design principles, and unified visual aesthetics
+- 🌐 **Improved Multi-language System**: Optimized language switching mechanisms with enhanced localization coverage
+- 🛠️ **Technical Architecture Modernization**: Complete JavaScript modularization adopting contemporary development patterns
 
 ## 🐛 Common Issues
 
 ### 🌐 SSH Remote Environment Issues
 **Q: Browser cannot launch in SSH Remote environment**
-A: This is normal behavior. SSH Remote environments have no graphical interface, requiring manual opening in local browser. For detailed solutions, see: [SSH Remote Environment Usage Guide](docs/en/ssh-remote/browser-launch-issues.md)
+A: This is expected behavior. SSH Remote environments lack graphical interfaces, requiring manual browser access via local machine. For comprehensive solutions, see: [SSH Remote Environment Usage Guide](docs/en/ssh-remote/browser-launch-issues.md)
 
 **Q: Why am I not receiving new MCP feedback?**
-A: There might be a WebSocket connection issue. **Solution**: Simply refresh the browser page.
+A: This typically indicates a WebSocket connection issue. **Solution**: Simply refresh the browser page to re-establish connection.
 
-**Q: Why isn't MCP being called?**
-A: Please confirm the MCP tool status shows green light. **Solution**: Toggle the MCP tool on/off repeatedly, wait a few seconds for system reconnection.
+**Q: Why isn't MCP being invoked?**
+A: Please verify the MCP tool status displays a green indicator. **Solution**: Toggle the MCP tool on/off repeatedly, allowing a few seconds for system reconnection.
 
 **Q: Augment cannot start MCP**
-A: **Solution**: Completely close and restart VS Code or Cursor, then reopen the project.
+A: **Solution**: Completely close and restart VS Code or Cursor, then reopen the project to reset the MCP connection.
 
 ### 🔧 General Issues
-**Q: How to use the legacy GUI interface?**
-A: v2.4.0 has completely removed PyQt6 GUI dependencies and transitioned to a pure Web UI architecture. To use the legacy GUI, please specify v2.3.0 or earlier versions:
+**Q: How to access the legacy GUI interface?**
+A: v2.4.0 has completely eliminated PyQt6 GUI dependencies in favor of pure Web UI architecture. To access legacy GUI functionality, specify v2.3.0 or earlier versions:
 ```bash
-# Use v2.3.0 (last version supporting GUI)
+# Use v2.3.0 (final version supporting GUI)
 uvx mcp-feedback-enhanced@2.3.0
 
 # Or specify version in MCP configuration
@@ -267,48 +267,48 @@ uvx mcp-feedback-enhanced@2.3.0
   }
 }
 ```
-**Note**: Legacy versions do not include v2.4.0 new features (prompt management, auto-submit, session management, etc.).
+**Important**: Legacy versions lack v2.4.0 features (prompt management, auto-submit, session management, etc.).
 
-**Q: Getting "Unexpected token 'D'" error**
-A: Debug output interference. Set `MCP_DEBUG=false` or remove the environment variable.
+**Q: Encountering "Unexpected token 'D'" error**
+A: This stems from debug output interference. Set `MCP_DEBUG=false` or remove the environment variable entirely.
 
-**Q: Chinese character garbled text**
-A: Fixed in v2.0.3. Update to latest version: `uvx mcp-feedback-enhanced@latest`
+**Q: Chinese character encoding issues**
+A: Resolved in v2.0.3. Update to latest version: `uvx mcp-feedback-enhanced@latest`
 
-**Q: Multi-screen window disappearing or positioning errors**
-A: Fixed in v2.1.1. Go to "⚙️ Settings" tab, check "Always show window at primary screen center" to resolve. Especially useful for T-shaped screen arrangements and other complex multi-monitor configurations.
+**Q: Multi-screen window positioning problems**
+A: Fixed in v2.1.1. Navigate to "⚙️ Settings" tab and enable "Always show window at primary screen center" for resolution. Particularly effective for T-shaped screen arrangements and complex multi-monitor setups.
 
-**Q: Image upload fails**
-A: Check file format (PNG/JPG/JPEG/GIF/BMP/WebP). System supports image files of any size.
+**Q: Image upload failures**
+A: Verify file format compatibility (PNG/JPG/JPEG/GIF/BMP/WebP). The system supports images of any size with intelligent processing.
 
-**Q: Web UI won't start**
-A: Check firewall settings or try using a different port.
+**Q: Web UI startup failures**
+A: Check firewall configurations or attempt using an alternative port.
 
-**Q: UV Cache taking up too much disk space**
-A: Due to frequent use of `uvx` commands, cache may accumulate to tens of GB. Regular cleanup is recommended:
+**Q: UV Cache consuming excessive disk space**
+A: Frequent `uvx` command usage can accumulate cache to tens of GB. Regular maintenance is recommended:
 ```bash
-# Check cache size and detailed information
+# Analyze cache size and detailed information
 python scripts/cleanup_cache.py --size
 
-# Preview cleanup content (without actually cleaning)
+# Preview cleanup operations (without executing)
 python scripts/cleanup_cache.py --dry-run
 
 # Execute standard cleanup
 python scripts/cleanup_cache.py --clean
 
-# Force cleanup (attempts to close related processes, solves Windows file lock issues)
+# Force cleanup (attempts process termination, resolves Windows file lock issues)
 python scripts/cleanup_cache.py --force
 
-# Or use uv command directly
+# Direct uv command alternative
 uv cache clean
 ```
-For detailed instructions, see: [Cache Management Guide](docs/en/cache-management.md)
+For comprehensive instructions, see: [Cache Management Guide](docs/en/cache-management.md)
 
-**Q: AI models cannot parse images**
-A: Various AI models (including Gemini Pro 2.5, Claude, etc.) may have instability in image parsing, sometimes correctly identifying and sometimes unable to parse uploaded image content. This is a known limitation of AI visual understanding technology. Recommendations:
-1. Ensure good image quality (high contrast, clear text)
-2. Try uploading multiple times, retries usually succeed
-3. If parsing continues to fail, try adjusting image size or format
+**Q: AI models struggle with image parsing**
+A: Various AI models (including Gemini Pro 2.5, Claude, etc.) exhibit inconsistent image parsing performance, sometimes successfully identifying content while other times failing completely. This represents a known limitation in AI visual understanding technology. Recommendations:
+1. Ensure optimal image quality (high contrast, clear text)
+2. Attempt multiple uploads; repeated attempts typically succeed
+3. If parsing consistently fails, experiment with different image sizes or formats
 
 ## 🙏 Acknowledgments
 
