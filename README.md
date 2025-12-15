@@ -310,6 +310,32 @@ A: Various AI models (including Gemini Pro 2.5, Claude, etc.) may have instabili
 2. Try uploading multiple times, retries usually succeed
 3. If parsing continues to fail, try adjusting image size or format
 
+## 🤖 Subagent Demo
+
+This project includes a demonstration of subagent functionality that shows how subagents can execute bash commands and return results in a structured format.
+
+### Features Demonstrated
+
+- **Bash Command Execution**: Securely execute arbitrary bash commands
+- **Structured Results**: All command results returned in consistent JSON format
+- **Error Handling**: Comprehensive error handling mechanisms
+- **Timeout Control**: Configurable command execution timeouts
+- **History Tracking**: Automatic logging of all executed commands
+
+### Running the Demo
+
+Interactive mode:
+```bash
+python3 scripts/subagent_demo.py
+```
+
+JSON output mode:
+```bash
+python3 scripts/subagent_demo.py --json
+```
+
+For detailed API documentation, see: [Subagent Demo Documentation](scripts/SUBAGENT_DEMO.md)
+
 ## 🙏 Acknowledgments
 
 ### 🌟 Support Original Author
